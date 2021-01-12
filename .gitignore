@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/API/bin/Debug/net5.0/ref
+/API/bin/Debug/net5.0
+/API/obj
+/API/appsettings.json
+/Core/bin/Debug/netcoreapp3.1
+/Core/obj
+/Infrastucture/bin/Debug/netcoreapp3.1
+/Infrastucture/obj
+/obj
+/packages
+/API/skinet.db

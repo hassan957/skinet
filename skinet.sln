@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{5DC9D803-979E-4461-AD95-20B2B96998C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastucture", "Infrastucture\Infrastucture.csproj", "{64026AB8-882E-4405-8554-DD6AD07403DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{31C2DB8A-98A1-4662-A3E7-F90FD1442FCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DC9D803-979E-4461-AD95-20B2B96998C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC9D803-979E-4461-AD95-20B2B96998C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC9D803-979E-4461-AD95-20B2B96998C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC9D803-979E-4461-AD95-20B2B96998C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64026AB8-882E-4405-8554-DD6AD07403DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64026AB8-882E-4405-8554-DD6AD07403DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64026AB8-882E-4405-8554-DD6AD07403DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64026AB8-882E-4405-8554-DD6AD07403DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C2DB8A-98A1-4662-A3E7-F90FD1442FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C2DB8A-98A1-4662-A3E7-F90FD1442FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C2DB8A-98A1-4662-A3E7-F90FD1442FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C2DB8A-98A1-4662-A3E7-F90FD1442FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAC92B5A-5B91-475C-89EF-E5E201788FA6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+	  <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+  </PropertyGroup>
+	<ItemGroup>
+    <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\WeatherForecastController.cs" />
+    <Compile Include="Data\Migrations\20210106071357_InitialCreate.cs" />
+    <Compile Include="Data\Migrations\20210106071357_InitialCreate.Designer.cs" />
+    <Compile Include="Data\Migrations\StoreContextModelSnapshot.cs" />
+    <Compile Include="Data\StoreContext.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="WeatherForecast.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\API.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\API.csproj.EntityFrameworkCore.targets" />
+    <None Include="obj\API.csproj.nuget.g.props" />
+    <None Include="obj\API.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net5.0\API.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net5.0\API.assets.cache" />
+    <None Include="obj\Release\net5.0\API.GeneratedMSBuildEditorConfig.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.1" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastucture\Infrastucture.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+
+
+</Project>
