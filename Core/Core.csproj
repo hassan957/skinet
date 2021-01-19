@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Entities\BaseEntity.cs" />
     <Compile Include="Entities\Product.cs" />
+    <Compile Include="Entities\ProductBrand.cs" />
+    <Compile Include="Entities\ProductType.cs" />
+    <Compile Include="Interfaces\IProductRepository.cs" />
   </ItemGroup>
 
 </Project>

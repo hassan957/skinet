@@ -1,14 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+
+
   <ItemGroup>
-    <Compile Include="Data\Migrations\20210106071357_InitialCreate.cs" />
-    <Compile Include="Data\Migrations\20210106071357_InitialCreate.Designer.cs" />
+    <Compile Include="Data\Config\ProductionConfiguration.cs" />
+    <Compile Include="Data\Migrations\20210118102942_InitialCreate.cs" />
+    <Compile Include="Data\Migrations\20210118102942_InitialCreate.Designer.cs" />
     <Compile Include="Data\Migrations\StoreContextModelSnapshot.cs" />
+    <Compile Include="Data\ProductRepository.cs" />
     <Compile Include="Data\StoreContext.cs" />
+    <Compile Include="Data\StoreContextSeed.cs" />
   </ItemGroup>
 
 	<ItemGroup>
@@ -18,6 +23,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\SeedData\" />
   </ItemGroup>
 
 </Project>

@@ -4,32 +4,18 @@
     <TargetFramework>net5.0</TargetFramework>
 	  <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="obj\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="obj\**" />
+  </ItemGroup>
 	<ItemGroup>
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\WeatherForecastController.cs" />
-    <Compile Include="Data\Migrations\20210106071357_InitialCreate.cs" />
-    <Compile Include="Data\Migrations\20210106071357_InitialCreate.Designer.cs" />
-    <Compile Include="Data\Migrations\StoreContextModelSnapshot.cs" />
-    <Compile Include="Data\StoreContext.cs" />
-    <Compile Include="Entities\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="WeatherForecast.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="obj\API.csproj.nuget.dgspec.json" />
-    <Content Include="obj\project.assets.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="obj\API.csproj.EntityFrameworkCore.targets" />
-    <None Include="obj\API.csproj.nuget.g.props" />
-    <None Include="obj\API.csproj.nuget.g.targets" />
-    <None Include="obj\project.nuget.cache" />
-    <None Include="obj\Release\net5.0\API.AssemblyInfoInputs.cache" />
-    <None Include="obj\Release\net5.0\API.assets.cache" />
-    <None Include="obj\Release\net5.0\API.GeneratedMSBuildEditorConfig.editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
