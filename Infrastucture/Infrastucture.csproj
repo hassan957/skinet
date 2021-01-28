@@ -8,10 +8,12 @@
 
   <ItemGroup>
     <Compile Include="Data\Config\ProductionConfiguration.cs" />
+    <Compile Include="Data\GenericRepository.cs" />
     <Compile Include="Data\Migrations\20210118102942_InitialCreate.cs" />
     <Compile Include="Data\Migrations\20210118102942_InitialCreate.Designer.cs" />
     <Compile Include="Data\Migrations\StoreContextModelSnapshot.cs" />
     <Compile Include="Data\ProductRepository.cs" />
+    <Compile Include="Data\SpecificationEvaluator.cs" />
     <Compile Include="Data\StoreContext.cs" />
     <Compile Include="Data\StoreContextSeed.cs" />
   </ItemGroup>

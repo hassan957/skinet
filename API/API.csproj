@@ -13,12 +13,16 @@
 	<ItemGroup>
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\WeatherForecastController.cs" />
+    <Compile Include="Dtos\ProductToReturnDto.cs" />
+    <Compile Include="Helpers\MapperProfiles.cs" />
+    <Compile Include="Helpers\ProductUrlResolver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="WeatherForecast.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" NoWarn="NU1605" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.1" NoWarn="NU1605" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.1">
@@ -34,6 +38,7 @@
 
   <ItemGroup>
     <Folder Include="bin\" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 
