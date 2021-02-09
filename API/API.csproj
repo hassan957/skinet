@@ -11,11 +11,19 @@
     <None Remove="obj\**" />
   </ItemGroup>
 	<ItemGroup>
+    <Compile Include="Controllers\BaseApiController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\WeatherForecastController.cs" />
     <Compile Include="Dtos\ProductToReturnDto.cs" />
+    <Compile Include="Errors\ApiException.cs" />
+    <Compile Include="Errors\ApiResponse.cs" />
+    <Compile Include="Errors\ApiValidationErrorResponse.cs" />
+    <Compile Include="Extensions\ApplicationServiceExtensions.cs" />
+    <Compile Include="Extensions\SwaggerServiceExtensions.cs" />
     <Compile Include="Helpers\MapperProfiles.cs" />
     <Compile Include="Helpers\ProductUrlResolver.cs" />
+    <Compile Include="Middleware\ExceptionMiddleware.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="WeatherForecast.cs" />
