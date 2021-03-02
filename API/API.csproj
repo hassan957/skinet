@@ -22,6 +22,7 @@
     <Compile Include="Extensions\ApplicationServiceExtensions.cs" />
     <Compile Include="Extensions\SwaggerServiceExtensions.cs" />
     <Compile Include="Helpers\MapperProfiles.cs" />
+    <Compile Include="Helpers\Pagination.cs" />
     <Compile Include="Helpers\ProductUrlResolver.cs" />
     <Compile Include="Middleware\ExceptionMiddleware.cs" />
     <Compile Include="Program.cs" />

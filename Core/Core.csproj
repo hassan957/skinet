@@ -13,7 +13,9 @@
     <Compile Include="Interfaces\IProductRepository.cs" />
     <Compile Include="Specifications\BaseSpecification.cs" />
     <Compile Include="Specifications\ISpecification.cs" />
+    <Compile Include="Specifications\ProductSpecParams.cs" />
     <Compile Include="Specifications\ProductsWithTypesAndBrandsSpecification.cs" />
+    <Compile Include="Specifications\ProductWithFiltersForCountSpecification.cs" />
   </ItemGroup>
 
 </Project>
